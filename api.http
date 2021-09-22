@@ -1,0 +1,8 @@
+POST http://localhost:8080/auth/realms/fincycle/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=nest
+&client_secret=9a9a9802-5c5f-4d4e-8a4c-81de962de60d
+&grant_type=password
+&username=user1@user.com
+&password=123456
